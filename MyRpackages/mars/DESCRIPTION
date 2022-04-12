@@ -1,0 +1,20 @@
+Package: mars
+Title: Multivariate Adaptive Regression Splines (MARS)
+Version: 0.0.0.9000
+Authors@R: person("Simarprit", "Gandhoke", , "sgandhok@sfu.ca", role = c("aut", "cre"),
+           comment = c(SFUID = "301355348"))
+Description: mars() function to implement Jerome H Friedma's Multivariate Adaptive Regression Splines algorithm, combined with built in methods like predict(),plot(),summary(), and print().
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    ISLR,
+    stats,
+    plotrix
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
